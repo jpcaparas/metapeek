@@ -4,6 +4,10 @@
   "description": "A command line tool to extract metadata from images",
   "author": "JP Caparas <jp@jpcaparas.com>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jpcaparas/metapeek.git"
+  },  
   "main": "./dist/index.js",
   "bin": {
     "metapeek": "./dist/index.js"
