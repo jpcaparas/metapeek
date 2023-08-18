@@ -1,13 +1,13 @@
 {
   "name": "metapeek",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A command line tool to extract metadata from images",
   "author": "JP Caparas <jp@jpcaparas.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/jpcaparas/metapeek.git"
-  },  
+  },
   "main": "./dist/index.js",
   "bin": {
     "metapeek": "./dist/index.js"
@@ -16,8 +16,14 @@
     "build": "tsc",
     "prepublishOnly": "npm run build"
   },
-  "keywords": ["image", "metadata", "jpeg", "jpg", "png", "heic"],
-
+  "keywords": [
+    "image",
+    "metadata",
+    "jpeg",
+    "jpg",
+    "png",
+    "heic"
+  ],
   "type": "module",
   "dependencies": {
     "@types/commander": "^2.12.2",
